@@ -1,23 +1,23 @@
-## LLM Chat App (Next.js + shadcn + OpenRouter)
+# LLM Chat App (Next.js + shadcn + OpenRouter)
 
-### Setup
+## Setup
 
 1. Install dependencies:
 
-```
+```bash
 npm install
 ```
 
-2. Create `.env.local` in the project root:
+1. Create `.env.local` in the project root:
 
-```
+```bash
 OPENROUTER_API_KEY=your_key_here
 OPENROUTER_MODEL=openai/gpt-4o-mini
 ```
 
-3. Run the dev server:
+1. Run the dev server:
 
-```
+```bash
 npm run dev
 ```
 
