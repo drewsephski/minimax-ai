@@ -35,7 +35,7 @@ export default function Home() {
         <CardContent className="h-[calc(100vh-8rem)] min-h-0 flex flex-col gap-3 p-0 pb-16">
           <div className="relative flex flex-1 min-h-0 rounded-lg overflow-hidden">
             <Conversation className="h-full">
-              <ConversationContent className="px-3 md:px-6 py-4 md:py-6 space-y-3 md:space-y-4 pb-2 md:pb-3">
+              <ConversationContent className="px-3 md:px-6 py-4 md:py-6 space-y-3 md:space-y-4 pb-28 md:pb-32">
                 {messages.map((message) => (
                   <div
                     key={message.id}
