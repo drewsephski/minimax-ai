@@ -1,3 +1,33 @@
+## LLM Chat App (Next.js + shadcn + OpenRouter)
+
+### Setup
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Create `.env.local` in the project root:
+
+```
+OPENROUTER_API_KEY=your_key_here
+OPENROUTER_MODEL=openai/gpt-4o-mini
+```
+
+3. Run the dev server:
+
+```
+npm run dev
+```
+
+Open `http://localhost:3000`.
+
+### Notes
+
+- API route: `app/api/chat/route.ts` uses OpenRouter via AI SDK streaming.
+- Change the model by setting `OPENROUTER_MODEL` or sending `model` in the request body.
+- UI uses shadcn components and Tabler icons.
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
